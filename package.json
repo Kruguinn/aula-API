@@ -1,5 +1,11 @@
 {
-  "name": "3tri_api",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "db": "^6.0.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.1"
+  },
+  "name": "kruger",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +13,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+  "license": "ISC"
 }
